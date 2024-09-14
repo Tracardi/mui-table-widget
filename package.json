@@ -1,7 +1,7 @@
 {
 	"name": "mui-table-widget",
 	"private": false,
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "A custom mui table component, dedicated for tms-gui",
 	"type": "module",
 	"main": "dist/mui-table-widget.js",

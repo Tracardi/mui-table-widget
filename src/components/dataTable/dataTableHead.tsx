@@ -1,10 +1,5 @@
 import * as React from "react";
-import TableHead from "@mui/material/TableHead";
-import TableRow from "@mui/material/TableRow";
-import TableCell from "@mui/material/TableCell";
-import Checkbox from "@mui/material/Checkbox";
-import TableSortLabel from "@mui/material/TableSortLabel";
-import Box from "@mui/material/Box";
+import {TableHead, TableRow, TableCell, Checkbox, TableSortLabel, Box} from "@mui/material"
 import {visuallyHidden} from "@mui/utils";
 import {Order} from "./dataTable.tsx";
 import {ChangeEvent} from "react";

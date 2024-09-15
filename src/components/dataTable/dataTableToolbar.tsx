@@ -1,10 +1,5 @@
-import Toolbar from "@mui/material/Toolbar";
-import {alpha} from "@mui/material/styles";
-import Typography from "@mui/material/Typography";
-import Tooltip from "@mui/material/Tooltip";
-import IconButton from "@mui/material/IconButton";
+import {Toolbar, alpha, Typography, Tooltip, IconButton, Button} from "@mui/material"
 import DeleteIcon from "@mui/icons-material/Delete";
-import {Button} from "@mui/material";
 
 interface DataTableToolbarProps {
     title: string;

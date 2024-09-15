@@ -1,18 +1,19 @@
-import Box from '@mui/material/Box';
-import Table from '@mui/material/Table';
-import TableBody from '@mui/material/TableBody';
-import TableCell from '@mui/material/TableCell';
-import TableContainer from '@mui/material/TableContainer';
-import TablePagination from '@mui/material/TablePagination';
-import TableRow from '@mui/material/TableRow';
-import Paper from '@mui/material/Paper';
-import Checkbox from '@mui/material/Checkbox';
+import {
+    Box,
+    Table,
+    TableBody,
+    TableCell,
+    TableContainer,
+    TablePagination,
+    TableRow,
+    Paper,
+    Checkbox,
+    IconButton, Tooltip
+} from "@mui/material"
 import React, {ChangeEvent, Dispatch, ReactNode, SetStateAction, useState} from "react";
 import DataTableHead from "./dataTableHead.tsx";
 import DataTableToolbar from "./dataTableToolbar.tsx";
-import IconButton from "@mui/material/IconButton";
 import {FaEdit} from "react-icons/fa";
-import Tooltip from "@mui/material/Tooltip";
 import DeleteIcon from "@mui/icons-material/Delete";
 
 export type Order = 'asc' | 'desc';

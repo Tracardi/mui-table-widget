@@ -1,36 +1,57 @@
 {
-  "name": "tms-components",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "tsc -b && vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
-  },
-  "dependencies": {
-    "@emotion/react": "^11.13.0",
-    "@emotion/styled": "^11.13.0",
-    "@mui/icons-material": "^5.16.7",
-    "@mui/material": "^5.16.7",
-    "@mui/utils": "^5.16.6",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "react-hook-form": "^7.52.2",
-    "react-icons": "^5.3.0"
-  },
-  "devDependencies": {
-    "@eslint/js": "^9.9.0",
-    "@types/react": "^18.3.3",
-    "@types/react-dom": "^18.3.0",
-    "@vitejs/plugin-react": "^4.3.1",
-    "eslint": "^9.9.0",
-    "eslint-plugin-react-hooks": "^5.1.0-rc.0",
-    "eslint-plugin-react-refresh": "^0.4.9",
-    "globals": "^15.9.0",
-    "typescript": "^5.5.3",
-    "typescript-eslint": "^8.0.1",
-    "vite": "^5.4.1"
-  }
+	"name": "mui-table-widget",
+	"private": false,
+	"version": "1.0.1",
+	"description": "A custom mui table component, dedicated for tms-gui",
+	"type": "module",
+	"main": "dist/mui-table-widget.js",
+	"module": "dist/mui-table-widget.js",
+	"types": "dist/mui-table-widget.d.ts",
+	"files": [
+		"/dist"
+	],
+	"exports": {
+		".": {
+			"import": "./dist/mui-table-widget.js",
+			"require": "./dist/mui-table-widget.js",
+			"types": "./dist/mui-table-widget.d.ts"
+		}
+	},
+	"scripts": {
+		"dev": "vite",
+		"build": "tsc -b && vite build",
+		"lint": "eslint .",
+		"preview": "vite preview"
+	},
+	"dependencies": {
+		"@emotion/react": "^11.13.0",
+		"@emotion/styled": "^11.13.0",
+		"@mui/icons-material": "^5.16.7",
+		"@mui/material": "^5.16.7",
+		"@mui/utils": "^5.16.6",
+		"react": "^18.3.1",
+		"react-dom": "^18.3.1",
+		"react-icons": "^5.3.0"
+	},
+	"devDependencies": {
+		"@eslint/js": "^9.9.0",
+		"@types/react": "^18.3.3",
+		"@types/react-dom": "^18.3.0",
+		"@vitejs/plugin-react": "^4.3.1",
+		"eslint": "^9.9.0",
+		"eslint-plugin-react-hooks": "^5.1.0-rc.0",
+		"eslint-plugin-react-refresh": "^0.4.9",
+		"globals": "^15.9.0",
+		"typescript": "^5.5.3",
+		"typescript-eslint": "^8.0.1",
+		"vite": "^5.4.1",
+		"vite-plugin-dts": "^4.2.1"
+	},
+	"peerDependencies": {
+		"@emotion/react": "^11.13.0",
+		"@emotion/styled": "^11.13.0",
+		"@mui/icons-material": "^5.16.7",
+		"@mui/material": "^5.16.7",
+		"@mui/utils": "^5.16.6"
+	}
 }
